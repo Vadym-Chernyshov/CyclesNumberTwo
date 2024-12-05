@@ -51,7 +51,7 @@
                 }
                 Console.WriteLine();
             }
-            int countOfElement = begin4Array.GetLength(0) < begin4Array.GetLength(1)? begin4Array.GetLength(0): begin4Array.GetLength(1);
+            int countOfElement = begin4Array.GetLength(0) < begin4Array.GetLength(1) ? begin4Array.GetLength(0): begin4Array.GetLength(1);
             for (int i = 0; i < countOfElement; i++)
             {
                 sum += begin4Array[i, i];

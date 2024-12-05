@@ -44,7 +44,7 @@
 
             for (int i = 0; i < begin4Array.GetLength(0); i++) //заповнюємо масив та виводимо на екран
             {
-                for (int j = 0; j < begin4Array.GetLength(1); j++)
+                for (int j = 0; j < begin4Array.GetLength(1); j++) //заповнюємо масив та виводимо на екран
                 {
                     begin4Array[i, j] = random.Next(-100, 100);
                     Console.Write(begin4Array[i, j] + " ");
